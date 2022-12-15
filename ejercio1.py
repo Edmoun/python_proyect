@@ -4,6 +4,7 @@ Ejercicio: Si el usuario introduce un numero, si no es un numero indicar que deb
 
 """
 
+# Otro cambio
 num = input("Introduce un numero: ")
 num = int(num)
 if(type(num) == int):

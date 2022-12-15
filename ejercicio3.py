@@ -2,6 +2,7 @@
 # que introduzca un numero y debe de decir si ha acertado, si el numero adivinar es menor o mayor
 # que el que ha introducido.
 
+# Edmoun
 def adivinar():
     numeroAdivinar = 6
     num = int(input("Escribe un numero: "))
