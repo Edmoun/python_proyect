@@ -21,12 +21,21 @@ print(ultimoElemnto)
 anteUltimo = lista[-3]
 print(anteUltimo)
 
-sublista = lista[0:3]
+sublista = lista[:3]
 print(sublista)
 
 sublista = lista[-3:-1]
 
 
 # Apartado 3: Comprobar si una lista contiene o no un elemento.
+
+listado = [1, 2, 3, 4, 5]
+num1 = 1
+num2 = 6
+
+if num1 in listado:
+    print("El numero esta en la lista")
+if num2 not in listado:
+    print("El numero no esta en la lista")
 
 # Modificar elementos en una lista.
