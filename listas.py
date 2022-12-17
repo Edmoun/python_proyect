@@ -89,5 +89,3 @@ print(frutas)
 del frutas[0]
 print(frutas)
 
-# Aparatdo 7: Ejercicio
-
