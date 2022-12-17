@@ -39,3 +39,19 @@ if num2 not in listado:
     print("El numero no esta en la lista")
 
 # Modificar elementos en una lista.
+
+carros = ["Ford", "Lexus", "Chevrolet", "Suzuki"]
+print(carros)
+
+carros[2] = "Toyota"
+print(carros)
+
+carros[0] = carros[0] + "Car"
+print(carros)
+
+carros[2:4] = "Cara", "Culo"
+print(carros)
+
+carros[3:4] = "Yo", "Te quiero"
+print(carros)
+
