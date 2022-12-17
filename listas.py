@@ -74,5 +74,20 @@ print(frutas2)
 
 # Apartado 6: Metodo de lista: Eliminar elementos
 
+frutas = ["Naranja", "Piña", "Pera", "Manzana"]
+print(frutas)
+
+frutas.pop()
+print(frutas)
+
+frutas.pop(0)
+print(frutas)
+
+frutas.remove("Piña")
+print(frutas)
+
+del frutas[0]
+print(frutas)
+
 # Aparatdo 7: Ejercicio
 
