@@ -55,3 +55,21 @@ print(carros)
 carros[3:4] = "Yo", "Te quiero"
 print(carros)
 
+# Apartado 5: Metodos de las listas. Añadir elementos; en python podemos utilizar elementos 
+# con las listas. Para ejecutar estos metodos: VariableDeTipoLista.metodo()
+
+frutas = ["Naranja", "Piña", "Pera", "Manzana"]
+print(frutas)
+
+frutas.insert(1, "Uva")
+print(frutas)
+
+frutas.append("Kiwi")
+print(frutas)
+
+frutas2 = ["Platano", "Yuca", "Tomate"]
+frutas2.extend(frutas)
+
+print(frutas2)
+
+
