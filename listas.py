@@ -72,4 +72,5 @@ frutas2.extend(frutas)
 
 print(frutas2)
 
+# Apartado 6: Metodo de lista: Eliminar elementos
 
