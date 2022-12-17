@@ -74,3 +74,5 @@ print(frutas2)
 
 # Apartado 6: Metodo de lista: Eliminar elementos
 
+# Aparatdo 7: Ejercicio
+
