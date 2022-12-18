@@ -15,6 +15,7 @@ texto = """Un texto es una composición de signos codificados en un sistema de e
 forma una unidad de sentido. También es una composición de caracteres imprimibles generados 
 por un algoritmo de cifrado que, aunque no tienen sentido para cualquier persona, sí puede 
 ser descifrado por su destinatario original."""
+
 palabrasClaves =[]
 numeroPalabra = []
 
@@ -35,7 +36,19 @@ while(True):
         palabrasClaves.pop(Espacio)
     else:
         Espacio += 1
+
 print (Espacio)
 print(palabrasClaves)   
 
-texto.split
+texto = texto.replace('.','').replace(',','').split()
+
+for x in range(len(palabrasClaves)):
+    numeroPalabra.append(0)
+
+for palabra in texto:
+    for clave in palabrasClaves:
+        if clave == palabra:
+            posicion = palabrasClaves.index(clave)
+            numeroPalabra[posicion] += 1
+            break
+print(numeroPalabra)
