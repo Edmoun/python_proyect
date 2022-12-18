@@ -89,3 +89,5 @@ print(frutas)
 del frutas[0]
 print(frutas)
 
+indice = frutas.index("Pera")
+print(indice)
