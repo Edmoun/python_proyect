@@ -19,4 +19,3 @@ def producto():
     print(num1*num2)
 
 saludar(),producto()
-
