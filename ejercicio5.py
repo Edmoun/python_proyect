@@ -4,7 +4,7 @@ su nombre, y luego lo salude.
 dos números y luego muestre el producto."""
 
 def saludar():
-    name = input("Escribe tu nombre: ")
+    name = str(input("Escribe tu nombre: "))
     name = str(name)
 
     if type(name) == str:
